@@ -1,0 +1,10 @@
+Op[0..2] - Operação da ulinha [000(add) - 001(or) - 010(soma) - 011(Less) - 100(Xor)]
+Op[3]	 - SLL(0) ou SLR(1)
+Op[4..6] - Resultado que sai da ULA [000(R) - 001(lo) - 010(hi) - 011(Shift) - 100(CLO) - 101(LUI)]
+Op[7] - mult(0) ou div(1)
+Op[8] - habilita a troca do valor de LO e HI no mult_div
+
+Arrumar Controle ULA e Controle
+
+https://github.com/MIPT-ILab/mipt-mips/wiki/MIPS-Instruction-Set
+https://opencores.org/project/plasma/opcodes
